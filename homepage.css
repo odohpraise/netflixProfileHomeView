@@ -1,0 +1,331 @@
+body {
+     min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    /* width: 100%; */
+    overflow-x: hidden;
+  }
+
+  ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    margin: 0 15px;
+  }
+nav{
+    display: flex;
+    background-color: black;
+}
+li{
+    color: #fff;
+    margin: 5px;
+    font-size: 10px;
+}
+ul:nth-child(1){
+    margin-right:auto ;
+    /* margin-left: auto; */
+}
+
+.headerLeft li:nth-child(1){
+    margin-right: 30px;
+}
+.headerLeft li a{
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.headerRight  img{
+    width: 14px;
+}
+
+.highlight{
+    height: 400px;
+    width: 100%;
+}
+
+
+.aboutMovie{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+   margin-top: 50px;
+}
+img.movieName {
+    width: 165px;
+}
+img.top10 {
+    width: 14px;
+}
+p.turkish {
+    color: white;
+    flex-basis: 10px;
+}
+
+
+.highLightedMovieInfo {
+    /* border: 2px solid #fff; */
+    width: 45%;
+    margin-left: 118px;
+    margin-top: 193px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.highLightedMovie p{
+    color: #fff;
+    margin-top: 0px;
+}
+
+    .highLightedMovie {
+        /* border: 2px solid red; */
+        background: url(./Assets/homePageImages/MoviePoster\ \(6\).png) ;
+        background-size: 100%;
+        /* object-fit: cover; */
+        /* background-position: top; */
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0,0.89);
+    }
+
+.highLightedMovie .highLightedMovieInfo img{
+    /* width: 100%; */
+    width: 340px;
+    
+}
+.movieInfo .movieInfoimg{
+width: 80px;
+margin-left: 5px;
+}
+.highLightedMovie .top10{
+    display: flex;
+    /* justify-content: space-evenly; */
+    color: #fff;
+    margin-top: -14px;
+}
+.highLightedMovie .top10 p{
+ margin-top: 14px;
+}
+
+
+.highLightedMovie .top10 img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    margin-right: 5px;
+}
+.highLightedMovie .top10 img{
+    width: 20px;
+    height: 20px;
+}
+
+.highLightedMovie .buttonDiv  {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+  }
+
+.highLightedMovie .buttonDiv .buttonImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 20px;
+    background-color: #fff;
+    /* overflow: hidden; */
+    width: 70px;
+    height: 45px;
+    line-height: 28px;
+    margin-right: 10px;
+}
+.highLightedMovie .buttonDiv .buttonImgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 150px;
+    white-space: nowrap;
+}
+
+.highLightedMovie .buttonDiv .buttonImgs p {
+    color: #fff;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 900;
+    /* display: none; */
+ }
+
+.highLightedMovie .buttonDiv .buttonImg p {
+    color: black;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 900;
+    /* display: none; */
+ }
+.highLightedMovie .buttonDiv .buttonImg img{
+    width: 15px;
+    height: 15px;
+    /* margin-top: 7px; */
+}
+.highLightedMovie .netflixPopular{
+    border: 2px solid #fff;
+}
+.netflixPopular{
+    padding: 0px;
+    /* display: none; */
+    /* margin-left: 50px; */
+    
+    
+}
+.highLightedMovieInfo {
+    margin-left: 100px;
+}
+p {
+    font-size: 20px;
+}
+
+
+/* .popularNetflix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.netflixPopular p {
+    margin-left: 115px;
+    font-size: 26px;
+    font-weight: 900;
+}
+.netflixPopular ul{
+    align-self: flex-end;
+    display: flex;
+    margin-left: 99px;
+    /* flex-wrap: wrap; */
+    margin-top: -40px;
+  
+}
+.netflixPopular ul img{
+    /* display: none; */
+    width: 240px;
+}
+
+
+img.item2Img,img.item1Img,img.item3Img,img.item4Img {
+    margin-right: 5px;
+}
+.popularNetflix {
+    margin-left: 115px;
+}
+
+ /* .category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+} */
+
+.otherMovieCategories{
+    background: #282828;
+    /* display: none; */
+}
+
+img.item1Img,img.item2Img,img.item3Img,img.item4Img,img.item5Img {
+    width: 240px;
+}
+img.item4Img{
+
+        height: 136px;
+    
+}
+
+img.im1{
+    width: 150px;
+}
+
+p.firstCategoryTitle {
+    margin-left: 112px;
+}
+img.item5Img.matrix {
+    height: 137px;
+}
+img.progressBar {
+    margin-top: 4px;
+    margin-right: 4px;
+    padding: 0px 31px;
+}
+img.item5Img.careAlot {
+    height: 135px;
+}
+img.item4.tribes,img.item5.iCare {
+    height: 483px;
+}
+img.item5Img.iCare {
+    height: 482px;
+    margin-left: 4px;
+}
+img.item1Img.guyPoster{
+    height: 134px;
+}
+img.item6.outland {
+    height: 135px;
+    margin-left: 4px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+div.link1,div.link2,div.link3,div.link4 {
+    display: flex;
+    flex-direction: column;
+}
+.links a {
+    text-decoration: none;
+    color: #808080;
+    margin-bottom: 10px;
+    padding-left: 19px;
+}
+ul.parentContainerForSocialImage {
+    padding-left: 100px;
+    padding-top: 36px;
+    padding-bottom: 29px;
+}
+.footerButton {
+    border: 1px solid grey;
+    width: fit-content;
+    padding: 5px 23px;
+    margin-left: 100px;
+    
+   
+}
+.footerButton a {
+    color: #808080;
+    text-decoration: none;
+}
+.footer .footerP{
+    color: #808080;
+    margin-left: 100px;
+}
+
+/* .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popularNetflixParent {
+    justify-content: center;
+} */
